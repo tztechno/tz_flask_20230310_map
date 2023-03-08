@@ -11,6 +11,5 @@ show map
 * export FLASK_ENV=development
 * flask run
 
-##　view sample
-
+## view sample
 <img src="./map.png" width="500">
