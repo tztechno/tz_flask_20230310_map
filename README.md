@@ -12,4 +12,4 @@ show map
 * flask run
 
 ##
-<img src="./map.png", width="500">
+<img src="./map.png" width="500">
