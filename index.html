@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Flask App</title>
+</head>
+
+<body>
+    <form action="/" method="post">
+        <label for="number">Enter Latitude, Longitude and Zoom:</label><br>
+        Latitude:<input type="text" id="lat" name="lat">35.658584<br>
+        Longitude:<input type="text" id="lon" name="lon">139.7454316<br>
+        Zoom:<input type="text" id="zoom" name="zoom">17<br>
+        <button type="submit">Submit</button>
+
+    </form>
+    {% if graph_html %}
+    <div>{{ graph_html|safe }}</div>
+    {% endif %}
+</body>
+
+</html>
